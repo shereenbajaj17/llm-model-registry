@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Model Registry | NSOffice.AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-text">NS<span class="logo-bold">Office.AI</span></span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Hive</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-section-title">ADMIN SETTINGS</li>
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">User Management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Model Management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Apps</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Nectar Wallet</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Logs</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="user-avatar"></div>
+                    <div class="user-info">
+                        <span class="user-name">Shereen</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="content-header">
+                <div class="header-titles">
+                    <h1 class="page-title">LLM Model Registry</h1>
+                    <p class="page-subtitle">A structured list of LLM models grouped by provider</p>
+                </div>
+            </header>
+
+            <section class="registry-container" id="registry-container">
+                <!-- Data will be injected here by JS -->
+                <div class="loading">Loading models...</div>
+            </section>
+        </main>
+    </div>
+
+    <script src="registry.js"></script>
+</body>
+  </html>
